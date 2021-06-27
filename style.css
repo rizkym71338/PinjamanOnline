@@ -1,0 +1,147 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(img/bg.jpg);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box {
+    position: absolute;
+    width: 400px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 0 10px 10px 10px rgb(0, 0, 0, .2);
+}
+
+.header {
+    background-image: url(img/bg-header.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: contain;
+    padding: 30px 30px;
+    color: white;
+    border-radius: 15px 15px 0 0;
+}
+
+.header h4 {
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 3px 2px 1px rgb(44, 79, 143);
+}
+
+.header p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.login-area {
+    text-align: center;
+    padding: 50px 50px 30px 50px;
+}
+
+.username,
+.password {
+    width: 100%;
+    text-align: center;
+    padding: 13px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgba(0, 68, 255, 0.5);
+    margin-bottom: 15px;
+    font-size: 15px;
+    transition: .5s;
+}
+
+.username::placeholder,
+.password::placeholder {
+    color: rgba(255, 255, 255, .7);
+}
+
+.username::placeholder:hover,
+.password::placeholder:hover {
+    color: #fff;
+}
+
+.username:focus,
+.password:focus {
+    background-color: rgba(0, 68, 255, 0.5);
+    transition: .5s;
+}
+
+.username:hover,
+.password:hover {
+    background-color: blue;
+    padding: 15px 0;
+    font-weight: bold;
+    transition: .5s;
+    color: #fff;
+    font-size: 18px;
+}
+
+.submit {
+    width: 150px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(0, 68, 255, 0.5);
+    border-radius: 20px;
+    color: white;
+    border: none;
+    outline: none;
+    margin: 10px;
+    margin-top: 10px;
+    transition: .5s;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+}
+
+.submit:hover {
+    background-color: blue;
+    transition: .5s;
+    font-weight: bold;
+    padding: 15px 30px;
+    font-size: 15px;
+}
+
+a {
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    color: blue;
+    margin-top: 10px;
+}
+
+.lupa:hover {
+    font-size: 110%;
+    transition: .5s;
+}
+
+.lupa {
+    transition: .5s;
+}
+
+@media screen and (max-width: 768px) {
+    .box {
+        height: 100%;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .header {
+        padding-bottom: 85px;
+        border-radius: 0;
+        background-size: cover;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: none;
+    }
+}

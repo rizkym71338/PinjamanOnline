@@ -1,0 +1,352 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg {
+    background-image: url(img/bg1.webp);
+    background-size: 150%;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: blue;
+    padding: 18px 100px;
+    text-align: right;
+    box-shadow: 0 2px 10px;
+}
+
+.menu li a {
+    padding: 10px 20px;
+    display: block;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 2%;
+    font-weight: bold;
+}
+
+.logout {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    border-radius: 20px;
+    border: #fff solid 2px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.logout:hover {
+    background-color: #fff;
+    color: blue;
+    font-weight: bold;
+    transition: .5s;
+    padding: 13px 25px;
+}
+
+.banner {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+.banner p {
+    color: rgba(0, 68, 255);
+    transition: 1s;
+    padding-top: 50px;
+}
+
+.banner p:hover {
+    font-size: 25px;
+    transition: 1s;
+}
+
+.box {
+    background-color: rgb(235, 235, 235);
+    width: 800px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    box-shadow: 2px 2px 10px rgb(137, 140, 146);
+    top: 50%;
+    left: 50%;
+}
+
+.box h1 {
+    display: absolute;
+    padding: 20px;
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+    height: 2px;
+    margin: auto;
+}
+
+.pinjaman {
+    margin: 20px 80px;
+}
+
+.pinjaman h2 {
+    margin-top: 20px;
+}
+
+.jumlah-pinjaman {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    transition: .5s;
+    outline: none;
+}
+
+.jumlah-pinjaman:hover {
+    padding: 15px 0;
+    transition: .5s;
+    font-size: 18px;
+}
+
+#periode {
+    margin-top: 10px;
+    width: 50%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    box-shadow: 1px 1px 3px rgb(137, 140, 146);
+    transition: .5s;
+}
+
+select::after {
+    border-radius: 10px;
+    border: none;
+    transition: .5s;
+}
+
+.periode h4 {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+textarea {
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    transition: .5s;
+    font-size: 20px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+textarea:hover {
+    transition: .5s;
+    padding-bottom: 40px;
+}
+
+.ajukan {
+    text-align: center;
+}
+
+.submit {
+    width: 150px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(0, 68, 255, 0.5);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    outline: none;
+    transition: .5s;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.submit:hover {
+    background-color: blue;
+    transition: .5s;
+    font-weight: bold;
+    padding: 15px 30px;
+    font-size: 15px;
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ketentuan {
+    color: rgba(39, 39, 39, 1);
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.ketentuan a {
+    color: skyblue;
+}
+
+.syarat {
+    margin-bottom: 50px;
+}
+
+.syarat h2 {
+    text-align: center;
+    padding-bottom: 50px;
+    display: block;
+}
+
+.syarat hr {
+    width: 100%;
+}
+
+.syarat h2 hr {
+    margin-top: 10px;
+    width: 100px;
+}
+
+.syarat ul {
+    text-align: center;
+}
+
+.syarat li {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+
+.syarat img {
+    margin-bottom: 30px;
+    width: 100px;
+    height: 100px;
+    transition: .5s;
+}
+
+.syarat img:hover {
+    width: 150px;
+    height: 150px;
+    transition: .5s;
+}
+
+.spasi {
+    padding: 50px 0;
+}
+
+.manfaat {
+    color: rgb(67, 121, 221);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.kota img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.footer {
+    background-color: rgba(39, 39, 39, 1);
+    padding: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 10px black;
+}
+
+
+@media screen and (max-width: 768px) {
+    .logo {
+        font-size: 15px;
+    }
+
+    .navbar {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .banner {
+        padding: 10px 20px;
+    }
+
+    .bg {
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    hr {
+        width: 75%;
+    }
+
+    .banner p {
+        font-size: 15px;
+    }
+
+    .banner p:hover {
+        font-size: 17px;
+    }
+
+    .box {
+        width: 100%;
+        margin: none;
+    }
+
+    .box h1 {
+        font-size: 20px;
+    }
+
+    .pinjaman {
+        margin: 10px;
+    }
+
+    .pinjaman h2,
+    .periode h2 {
+        font-size: 15px;
+    }
+
+    textarea {
+        font-size: 15px;
+    }
+
+    .ketentuan {
+        font-size: 10px;
+    }
+
+    .submit:hover {
+        padding: 15px 30px;
+        font-size: 15px;
+        width: 80%;
+    }
+}
